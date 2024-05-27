@@ -1,0 +1,44 @@
+.FormContainer{
+    margin: 4rem 6rem;
+    color: #2a2a2a;
+
+}
+.FormContainer h1{
+    margin-bottom: 7px;
+}
+.FormContainer form{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+.FormContainer input{
+    height: 3rem;
+    padding:0 1rem;
+    margin-bottom: 2rem;border-radius: .3rem;
+    border:1px solid #2a2a2a;
+
+}
+
+.FormContainer textarea{
+    height: 3rem;
+    padding:0 1rem;
+    margin-bottom: 2rem;border-radius: .3rem;
+    border:1px solid #2a2a2a; 
+}
+
+.FormContainer button{
+    display: inline;
+}
+
+@media screen and (max-width:850px) {
+    .FormContainer{
+        margin: 4rem 2rem;
+    }
+    .FormContainer form{
+        padding-top: 2rem;
+        width: 90%;
+    }
+    
+}
